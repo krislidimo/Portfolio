@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+/* <-------------Var & Mixins-------------> */
+
+@import './assets/scss/variables', './assets/scss/mixin';
+
+
+/* <--------Reset & Global styles--------> */
+
+@import './assets/scss/reset', './assets/scss/global';
+
+
+/* <-------------Components-------------> */
+
+/* <----------End of Components----------> */
